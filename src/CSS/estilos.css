@@ -115,7 +115,8 @@ main .pokemon-card .Grass-type,
 .Fighting-type,
 .Steel-type,
 .Ice-type,
-.Psychic-type {
+.Psychic-type,
+.Dark-type {
     padding: 8px;
     border-radius: 10px;
 }
@@ -146,6 +147,7 @@ main .pokemon-card .Bug-type {
 
 main .pokemon-card .Ghost-type {
     background-color: #4e054d9c;
+    color: whitesmoke;
 }
 
 main .pokemon-card .Fighting-type {
@@ -153,8 +155,7 @@ main .pokemon-card .Fighting-type {
 }
 
 main .pokemon-card .Steel-type {
-    background-color: #9eb7b8
-    ;
+    background-color: #9eb7b8;
 }
 
 main .pokemon-card .Ice-type {
@@ -164,6 +165,12 @@ main .pokemon-card .Ice-type {
 main .pokemon-card .Psychic-type {
     background-color: #f366b9;
 }
+
+main .pokemon-card .Dark-type {
+    background-color: #707070;
+    color: whitesmoke;
+}
+
 main .description {
     max-height: 80px;
     overflow-y: scroll;
